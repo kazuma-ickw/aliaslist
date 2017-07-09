@@ -3,3 +3,6 @@ os: linux
 files:
   - source: /
     destination: /srv
+hooks:
+  AfterInstall:
+    - location: scripts/afterinstall.sh

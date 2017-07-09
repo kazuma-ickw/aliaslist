@@ -11,7 +11,7 @@ import (
 func main() {
 	app := cli.NewApp()
 	app.Name = "aliaslist"
-	app.Usage = "show unused aliases"
+	app.Usage = "show unused aliases."
 
 	app.Action = func(c *cli.Context) error {
 		if c.Args().Get(0) == "show" {
